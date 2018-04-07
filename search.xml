@@ -3,10 +3,26 @@
   
     
     <entry>
-      <title>Using your auburn web space</title>
+      <title>How to set up your personal Auburn Website</title>
       <link href="/2018/03/17/Set-up-homepage-with-jemdoc-on-Auburn/"/>
-      <content type="html"><![CDATA[<h1 id="Coming-Soon"><a href="#Coming-Soon" class="headerlink" title="Coming Soon"></a>Coming Soon</h1><p>Show you how to set up your homepage on auburn web space for auburn student and staff.</p>]]></content>
+      <content type="html"><![CDATA[<p>This tutuorial will tell you step by step on how to set up your personal Auburn webiste. The final result is (<a href="http://www.auburn.edu/~czj0043" target="_blank" rel="noopener">http://www.auburn.edu/~czj0043</a>)</p><h3 id="You-need-to-know"><a href="#You-need-to-know" class="headerlink" title="You need to know"></a>You need to know</h3><p>Maybe many of students still do not know that:</p><blockquote><p>The UNIX server, known as Mallard, hosts the Auburn University homepage. <b>All Students and Employees automatically have 10GB of web space already set up on this server</b> (<a href="http://www.auburn.edu/~username" target="_blank" rel="noopener">http://www.auburn.edu/~username</a>)</p></blockquote><p>According to: <a href="http://www.auburn.edu/oit/web_development/" target="_blank" rel="noopener">AU OIT Web Development</a></p><h3 id="Section-1-Generate-the-static-pages-on-your-local-computer"><a href="#Section-1-Generate-the-static-pages-on-your-local-computer" class="headerlink" title="Section 1: Generate the static pages on your local computer"></a>Section 1: Generate the static pages on your local computer</h3><p>FarBox、Jekyll、Octopress、ghost、marboo、Hexo、Medium、Logdown、prose.io etc. There are a lot of ways that you can choose to design your static homepage or blog. Here, I will use jemdoc as a example. In the next, <a href="http://www.auburn.edu/~xzp0007/" target="_blank" rel="noopener">Xiaopu</a> will show you how to use Hexo to set up a more powerful blog. </p><h4 id="jemdoc-introduction"><a href="#jemdoc-introduction" class="headerlink" title="jemdoc introduction"></a>jemdoc introduction</h4><h5 id="a-Install-jemdoc"><a href="#a-Install-jemdoc" class="headerlink" title="a. Install jemdoc"></a>a. Install jemdoc</h5><p>In fact, jemdoc is a python script. you can download it from (<a href="http://jemdoc.jaboc.net/dist/jemdoc.py)" target="_blank" rel="noopener">http://jemdoc.jaboc.net/dist/jemdoc.py)</a>, at the same time, download their default css file (<a href="http://jemdoc.jaboc.net/dist/jemdoc.css)" target="_blank" rel="noopener">http://jemdoc.jaboc.net/dist/jemdoc.css)</a>.</p><p>Basically, the grammer of jemdoc is very simialr to the markdown lanuage. You can build a very minimalist personal hompage using jemdoc with a your own customized css file.</p><h5 id="b-How-to-use-jemdoc"><a href="#b-How-to-use-jemdoc" class="headerlink" title="b. How to use jemdoc"></a>b. How to use jemdoc</h5><p>Create a new fold, and putting the above two files you downloaded into the fold.</p><p>First, Create a file named “MENU”.</p><h3 id="Section-2-Uploading-your-files-to-the-web-hosts"><a href="#Section-2-Uploading-your-files-to-the-web-hosts" class="headerlink" title="Section 2: Uploading your files to the web hosts"></a>Section 2: Uploading your files to the web hosts</h3>]]></content>
       
+      <categories>
+          
+          <category> testCategories </category>
+          
+          <category> IT </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> auburn </tag>
+            
+            <tag> webspace </tag>
+            
+        </tags>
       
     </entry>
     
