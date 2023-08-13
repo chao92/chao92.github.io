@@ -1,0 +1,39 @@
+# jemdoc: menu{MENU}{index.html}
+= Chao Jiang 
+
+~~~
+{}{img_left}{chao.jpeg}{alt text}{244.8px}{326.4px}{}
+Chao Jiang, Staff ML Scientist at Visa Inc. \n
+Ph.D. Auburn University  \n
+Advisor: [https://eng.auburn.edu/directory/chapmro Dr. Richard Chapman]\n
+[https://www.eng.auburn.edu/comp/ Department of Computer Science and Software Engineering] \n
+[http://auburn.edu/ Auburn University]  \n
+Contact: [chao@auburn.edu Email], [https://www.linkedin.com/in/chaojiang92/ Linkedin], [https://github.com/chao92 Github], [http://chaojiang.me/ Blog]
+~~~
+
+== Short Bio 
+I am working at Visa Inc after graduating from Auburn University. I obtained my Master degree in ECE from University of Oklahoma at Tulsa under the supervision of [http://www.samuelcheng.info/ Prof. Samuel Cheng]. I got my Bachelor degree in Software Engineering, Northwest A\&F University.
+== News
+- \[10-03-2022] Reviewer of AMIA 2023 Informatics Summit 
+- \[08-30-2022] I will join Visa as a staff ML scientist
+- \[08-08-2022] Reviewer of Frontiers in Neurorobotics, 2022
+- \[07-10-2022] Reviewer of CIKM 2022, ICDM 2022
+- \[07-01-2022] "Energy-efficient Management of Data Centers using a Renewable-aware Scheduler" accepted by IEEE International Conference on Networking, Architecture, and Storage (NAS 2022)
+- \[05-30-2022] "Deep Denoising of Raw Biomedical Knowledge Graph from COVID-19 Literature, LitCovid and Pubtator" accepted by Journal of Medical Internet Research 2022
+- \[04-29-2022] "BETA: a comprehensive BEnchmark for computational drug TArget prediction" accepted by Briefings in Bioinformatics 2022
+- \[04-06-2022] "Camouflaged Poisoning Attack on Graph Neural Networks" accepted by ACM ICMR' 2022
+- \[09-01-2021] "Automatic Construction of Biomedical Knowledge Graph from Covid-19 Literature" accepted as a poster by AMIA' 2021
+- \[03-13-2020] "Privacy-preserving Construction of Generalized Linear Mixed Model for Biomedical Computation" accepted by ISMB' 2020
+- \[10-16-2019] "Integrating local vertex/edge embedding via deep matrix fusion and siamese multi-label classification" accepted by IEEE BigData'2019
+- \[04-25-2019] I will do a Summer internship at NOVO VIVO.
+- \[10-16-2018] "Density-aware Local Siamese Autoencoder Network Embedding with Autoencoder Graph Clustering" accepted by IEEE BigData'2018
+- \[08-18-2018] "Density-adaptive Local Edge Representation Learning with Generative Adversarial Network Multi-label Edge Classification" accepted by ICDM'2018 (acceptance rate: 11.08%)
+- \[10-03-2017\] "A community effort to protect genomic data sharing, collaboration and outsourcing" accepted by npj Genomic Medicine
+== Education 
+- Ph.D., Department of Computer Science and Software Engineering, Auburn University, Auburn, AL USA, Aug. 2017 - Present
+- M.S., School of Electrical and Computer Engineering, University of Oklahoma, Tulsa, OK USA, Aug. 2014 - Aug. 2016
+- B.E., College of Information Engineering, Northwest A\&F University, Yangling, Shaanxi China, Sep. 2010 - July 2014
+== Research Interests 
+- Neural network 
+- Graph data mining 
+- Privacy preserving computation

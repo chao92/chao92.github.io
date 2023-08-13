@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{publication.html}
+= Publications
+[https://scholar.google.com/citations?user=tZs2WzcAAAAJ&hl=en \[Google Scholar\]]
+- Journal Papers
+-- [ Deep Denoising of Raw Biomedical Knowledge Graph from COVID-19 Literature, LitCovid and Pubtator]\n
+*Chao Jiang*, Victoria Ngo, Richard Chapman, Yue Yu, Hongfang Liu, Guoqian Jiang, Nansu Zong, Accepted by Journal of Medical Internet Research (Impact Factor 5.43)
+-- [ BETA: a comprehensive BEnchmark for computational drug TArget prediction]\n
+Nansu Zong, Ning Li, Victoria Ngo, Andrew Wen, Yue Yu, *Chao Jiang*, Ming Huang, Sunyang Fu, Richard Weinshilboum, Guoqian Jiang, Lawrence Hunter, Hongfang Liu, Accepted by Briefings in Bioinformatics (Impact Factor 11.62)
+-- [https://academic.oup.com/bioinformatics/article/36/Supplement_1/i128/5870488 Privacy-preserving construction of generalized linear mixed model for biomedical computation]\n
+Rui Zhu, *Chao Jiang*, Xiaofeng Wang, Shuang Wang, Hao Zheng, Haixu Tang, Bioinformatics, Volume 36, Issue Supplement_1, July 2020, Pages i128–i135
+-- [https://www.nature.com/articles/s41525-017-0036-1 A community effort to protect genomic data sharing, collaboration and outsourcing]\n
+Wang, Shuang and Jiang, Xiaoqian and Tang, Haixu and Wang, Xiaofeng and Bu, Diyue and Carey, Knox and Dyke, Stephanie OM and Fox, Dov and *Jiang, Chao* and Lauter, Kristin and et al. npj Genomic Medicine 2 (1), 33, 2017
+-- [https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0316-1 Secure Multi-pArty Computation Grid LOgistic REgression (SMAC-GLORE)]\n
+Haoyi Shi, *Chao Jiang*, Wenrui Dai, Xiaoqian Jiang, Yuzhe Tang, Lucila Ohno-Machado and Shuang Wang, BMC Medical informatics and Decision Making (BMC), 16(Suppl 3):89, 2016.
+-- [https://academic.oup.com/jamia/article/22/6/1153/2358136/Trends-in-biomedical-informatics-automated-topic Trends in biomedical informatics: automated topic analysis of JAMIA articles]\n
+Dong Han, Shuang Wang, *Chao Jiang*, Xiaoqian Jiang, Hyeon-Eui Kim, Jimeng Sun, Lucila Ohno-Machado, J Am Med Inform Assoc (2015) 22 (6): 1153-1163.
+- Conference Papers
+-- [ Energy-efficient Management of Data Centers using a Renewable-aware Scheduler]\n
+Xiaopu Peng, Tathagata Bhattacharya, Jianzhou Mao, Ting Cao, *Chao Jiang* and Xiao Qin, IEEE International Conference on Networking, Architecture, and Storage (NAS 2022)
+-- [ Camouflaged Poisoning Attack on Graph Neural Networks]\n
+*Chao Jiang*, Yi He, Richard Chapman, Hongyi Wu, ACM International Conference on Multimedia Retrieval  (ACM ICMR) (2022)
+-- [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9006299 Integrating Local Vertex/Edge Embedding via Deep Matrix Fusion and Siamese Multi-label Classification]\n
+Yang Zhou, *Chao Jiang*, Zijie Zhang, Dejing Dou, Ruoming Jin, Pengwei Wang, IEEE International Conference on Big Data (IEEE Big Data) (2019): 1018-1027
+-- [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8621992 Density-aware Local Siamese Autoencoder Network Embedding with Autoencoder Graph Clustering]\n
+Yang Zhou, Amnay Amimeur, *Chao Jiang*, Dejing Dou, Ruoming Jin, Pengwei Wang, IEEE International Conference on Big Data (IEEE Big Data) (2018): 1162-1167
+-- [https://ieeexplore.ieee.org/abstract/document/8595012 Density-Adaptive Local Edge Representation Learning with Generative Adversarial Network Multi-label Edge Classification] \n
+Yang Zhou, Sixing Wu, *Chao Jiang*, Zijie Zhang, Dejing Dou, Ruoming Jin, Pengwei Wang, IEEE International Conference on Data Mining (ICDM) (2018): 1464-1469.
+- Posters
+-- [ Automatic Construction of Biomedical Knowledge Graph from Covid-19 Literature]\n
+*Chao Jiang*, Richard Chapman, Victoria Ngo, Hongfang Liu, Guoqian Jiang, Nansu Zong, AMIA (2021)
+-- [https://amia2017.zerista.com/poster/member/94127 MALTASE: a Mobile AppLication To improve patients’ Access to their data Sharing preferencE] \n
+*C. Jiang*, X. Jiang, S. Wang, D. Guijarro, E. Bell, I. Jang, G. Yun, M. Rahman, L. Ohno-Machado, H. Kim, AMIA (2017)
+-- [https://amia2017.zerista.com/event/member/389728 Honoring Patient’s Data Sharing Preferences: Implementation Challenges] \n
+E. Bell, D. Guijarro, I. Jang, W. Zhu, T. Bath, G. Yun, M. Rahman, *C. Jiang*, X. Jiang, L. Ohno-Machado, H. Kim, AMIA (2017)

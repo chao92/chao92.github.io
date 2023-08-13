@@ -1,44 +1,99 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content=""><meta name="keywords" content=""><meta name="author" content="Chao Jiang,undefined"><meta name="copyright" content="Chao Jiang"><title>A smooth sea never made a skilled sailor | Chao Jiang</title><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css?version=1.5.0"><script>var GLOBAL = { 
-  root: '/',
-  algolia: undefined,
-  copy: {
-    success: 'Copy successfully',
-    error: 'Copy error',
-    noSupport: 'The browser does not support'
-  },
-  localSearch: undefined
-} </script></head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="author-info"><div class="author-info__avatar text-center"><img src="self-photo/ChaoJiang.JPG"></div><div class="author-info__name text-center">Chao Jiang</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">2</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">2</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">2</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">Links</div><a class="author-info-links__name text-center" href="http://auburncssa.org/" target="_blank">AUCSO</a></div></div></div><nav class="no-bg" id="nav" style="background-image: url(true)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Chao Jiang</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div><div id="site-info"><div id="site-title">Chao Jiang</div><div id="site-sub-title">A smooth sea never made a skilled sailor</div><div id="site-social-icons"> <a class="social-icon" href="http://www.auburn.edu/~czj0043/" target="_blank"><i class="fa fa-home"></i></a><a class="social-icon" href="https://github.com/chao92" target="_blank"><i class="fa fa-github"></i></a><a class="social-icon" href="https://www.linkedin.com/in/chaojiang92/" target="_blank"><i class="fa fa-linkedin"></i></a><a class="social-icon" href="https://twitter.com/ChaoJ92" target="_blank"><i class="fa fa-twitter"></i></a><a class="social-icon" href="https://www.facebook.com/chao.jiang.16100" target="_blank"><i class="fa fa-facebook"></i></a></div></div></nav><div id="content-outer"><div class="layout" id="content-inner"><div class="recent-post-item"><a class="article-title" href="/2018/03/17/Set-up-homepage-with-jemdoc-on-Auburn/">How to set up your personal Auburn Website</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-03-17</time><div class="content"><p>This tutuorial will tell you step by step on how to set up your personal Auburn webiste.<br><br><b>The final result is (<a href="http://www.auburn.edu/~czj0043" target="_blank" rel="noopener">http://www.auburn.edu/~czj0043</a>) </b><br><br><b>All files used in this tutuorial are available on (<a href="https://github.com/chao92/jemdoc-tutorial">https://github.com/chao92/jemdoc-tutorial</a>)</b></p>
-<h1 id="You-need-to-know"><a href="#You-need-to-know" class="headerlink" title="You need to know"></a>You need to know</h1><p>A lot of students still do not know that:</p>
-<blockquote>
-<p>The UNIX server, known as Mallard, hosts the Auburn University homepage. <b>All Students and Employees automatically have 10GB of web space already set up on this server</b> (<a href="http://www.auburn.edu/~username)" target="_blank" rel="noopener">http://www.auburn.edu/~username)</a>.</p>
-</blockquote>
-<p>According to: <a href="http://www.auburn.edu/oit/web_development/" target="_blank" rel="noopener">AU OIT Web Development</a></p>
-<h2 id="Section-1-Static-Site-Generator"><a href="#Section-1-Static-Site-Generator" class="headerlink" title="Section 1: Static Site Generator"></a>Section 1: Static Site Generator</h2><p>FarBox、Jekyll、Octopress、ghost、marboo、Hexo、Medium、Logdown、prose.io etc. For now, there exists a lot of ways that you can choose to design your static homepage or blog. Here, I will use jemdoc as a example. In the next, <a href="http://www.auburn.edu/~xzp0007/" target="_blank" rel="noopener">Xiaopu</a> will show you how to use Hexo to set up a more powerful blog. </p>
-<h3 id="jemdoc-introduction"><a href="#jemdoc-introduction" class="headerlink" title="jemdoc introduction"></a>jemdoc introduction</h3><h4 id="a-Install-jemdoc"><a href="#a-Install-jemdoc" class="headerlink" title="a. Install jemdoc"></a>a. Install jemdoc</h4><p>In fact, jemdoc is a python script. you can download it from (<a href="http://jemdoc.jaboc.net/dist/jemdoc.py)" target="_blank" rel="noopener">http://jemdoc.jaboc.net/dist/jemdoc.py)</a>;<br><br>at the same time, download their default css file (<a href="http://jemdoc.jaboc.net/dist/jemdoc.css)" target="_blank" rel="noopener">http://jemdoc.jaboc.net/dist/jemdoc.css)</a>.</p>
-<p>Basically, the grammer of jemdoc is simialr to the markdown lanuage. You can build a minimalist personal hompage using jemdoc with a your own customized css file.</p>
-<h4 id="b-How-to-use-jemdoc"><a href="#b-How-to-use-jemdoc" class="headerlink" title="b. How to use jemdoc"></a>b. How to use jemdoc</h4><p>Create a new fold, and putting the above two files you downloaded into the fold.</p>
-<p>First, Create a file named “MENU”. Attached is the content of my MENU file:</p>
-<p><img src="/images/jemdoc-menu.png" alt="My MENU file content"></p>
-<p>Second, Create corresponding .jemdoc file according to the .html file you created on the MENU file. After that, using jemdoc.py to parse those file into html files. Attached is the content of my index.jemdoc</p>
-<p><img src="/images/jemdoc-index.png" alt="My index.jemdoc file content"></p>
-<p>Third, Using python2.7 run the jemdoc.py as below, a file named “index.html” will be generated.<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python2<span class="number">.7</span> jemdoc.py index.jemdoc</span><br></pre></td></tr></table></figure></p>
-<p>Last, you can put your favoriate picutre named as “favicon.ico” within the same fold.</p>
-<p><img src="/images/jemdoc-favicon.ico" alt="My favicon.ico file"></p>
-<h2 id="Section-2-Uploading-files-to-the-web-space-of-AU"><a href="#Section-2-Uploading-files-to-the-web-space-of-AU" class="headerlink" title="Section 2: Uploading files to the web space of AU"></a>Section 2: Uploading files to the web space of AU</h2><p>Multi-ways to uploading your files to the server hosted by the Auburn University depending on your computer system. Here I will show you how to use software Cyberduck. BTW, if you need to using VPN (<a href="http://www.auburn.edu/oit/vpn/" target="_blank" rel="noopener">http://www.auburn.edu/oit/vpn/</a>) if you are not on the Auburn network.</p>
-<h3 id="a-Launch-cyberduck"><a href="#a-Launch-cyberduck" class="headerlink" title="a. Launch cyberduck"></a>a. Launch cyberduck</h3><p><img src="/images/jemdoc-cyberduck1.png" alt="Cyberduck software new connection"></p>
-<ol>
-<li>Clicking open connection, then choose “SFTP”</li>
-<li>Typing mallard.auburn.edu into the server box, and make sure the port is 22</li>
-<li>Typing your AUaccess username and password</li>
-</ol>
-<h3 id="b-After-you-connected"><a href="#b-After-you-connected" class="headerlink" title="b. After you connected"></a>b. After you connected</h3><p><img src="/images/jemdoc-cyberduck2.png" alt="You web space on AU"><br>Dragging all your files to the fold named “public_html”.</p>
-</div><hr></div><div class="recent-post-item"><a class="article-title" href="/2018/03/15/hello-world/">Hello World</a><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-03-15</time><div class="content"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-</div><hr></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2018 By Chao Jiang</div><div class="framework-info"><span>Driven - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fa fa-user"></i><span id="busuanzi_value_site_uv"></span><span></span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fa fa-eye"></i><span id="busuanzi_value_site_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.5.0"></script><script src="/js/fancybox.js?version=1.5.0"></script><script src="/js/sidebar.js?version=1.5.0"></script><script src="/js/copy.js?version=1.5.0"></script><script src="/js/fireworks.js?version=1.5.0"></script><script src="/js/transition.js?version=1.5.0"></script><script src="/js/scroll.js?version=1.5.0"></script><script src="/js/head.js?version=1.5.0"></script></body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<title>Chao Jiang </title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Home</div>
+<div class="menu-item"><a href="index.html" class="current">About&nbsp;me</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-category">Courseworks</div>
+<div class="menu-item"><a href="teaching.html">Teaching</a></div>
+<div class="menu-item"><a href="course.html">Courses</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Chao Jiang </h1>
+</div>
+<table class="imgtable"><tr><td>
+<img src="chao.jpeg" alt="alt text" width="244.8px" height="326.4px" />&nbsp;</td>
+<td align="left"><p>Chao Jiang, Staff ML Scientist at Visa Inc. <br />
+Ph.D. Auburn University  <br />
+Advisor: <a href="https://eng.auburn.edu/directory/chapmro">Dr. Richard Chapman</a><br />
+<a href="https://www.eng.auburn.edu/comp/">Department of Computer Science and Software Engineering</a> <br />
+<a href="http://auburn.edu/">Auburn University</a>  <br />
+Contact: <a href="mailto:chao@auburn.edu">Email</a>, <a href="https://www.linkedin.com/in/chaojiang92/">Linkedin</a>, <a href="https://github.com/chao92">Github</a>, <a href="http://chaojiang.me/">Blog</a></p>
+</td></tr></table>
+<h2>Short Bio </h2>
+<p>I am working at Visa Inc after graduating from Auburn University. I obtained my Master degree in ECE from University of Oklahoma at Tulsa under the supervision of <a href="http://www.samuelcheng.info/">Prof. Samuel Cheng</a>. I got my Bachelor degree in Software Engineering, Northwest A&F University.</p>
+<h2>News</h2>
+<ul>
+<li><p>[10-03-2022] Reviewer of AMIA 2023 Informatics Summit </p>
+</li>
+<li><p>[08-30-2022] I will join Visa as a staff ML scientist</p>
+</li>
+<li><p>[08-08-2022] Reviewer of Frontiers in Neurorobotics, 2022</p>
+</li>
+<li><p>[07-10-2022] Reviewer of CIKM 2022, ICDM 2022</p>
+</li>
+<li><p>[07-01-2022] &ldquo;Energy-efficient Management of Data Centers using a Renewable-aware Scheduler&rdquo; accepted by IEEE International Conference on Networking, Architecture, and Storage (NAS 2022)</p>
+</li>
+<li><p>[05-30-2022] &ldquo;Deep Denoising of Raw Biomedical Knowledge Graph from COVID-19 Literature, LitCovid and Pubtator&rdquo; accepted by Journal of Medical Internet Research 2022</p>
+</li>
+<li><p>[04-29-2022] &ldquo;BETA: a comprehensive BEnchmark for computational drug TArget prediction&rdquo; accepted by Briefings in Bioinformatics 2022</p>
+</li>
+<li><p>[04-06-2022] &ldquo;Camouflaged Poisoning Attack on Graph Neural Networks&rdquo; accepted by ACM ICMR&rsquo; 2022</p>
+</li>
+<li><p>[09-01-2021] &ldquo;Automatic Construction of Biomedical Knowledge Graph from Covid-19 Literature&rdquo; accepted as a poster by AMIA&rsquo; 2021</p>
+</li>
+<li><p>[03-13-2020] &ldquo;Privacy-preserving Construction of Generalized Linear Mixed Model for Biomedical Computation&rdquo; accepted by ISMB&rsquo; 2020</p>
+</li>
+<li><p>[10-16-2019] &ldquo;Integrating local vertex/edge embedding via deep matrix fusion and siamese multi-label classification&rdquo; accepted by IEEE BigData&rsquo;2019</p>
+</li>
+<li><p>[04-25-2019] I will do a Summer internship at NOVO VIVO.</p>
+</li>
+<li><p>[10-16-2018] &ldquo;Density-aware Local Siamese Autoencoder Network Embedding with Autoencoder Graph Clustering&rdquo; accepted by IEEE BigData&rsquo;2018</p>
+</li>
+<li><p>[08-18-2018] &ldquo;Density-adaptive Local Edge Representation Learning with Generative Adversarial Network Multi-label Edge Classification&rdquo; accepted by ICDM&rsquo;2018 (acceptance rate: 11.08%)</p>
+</li>
+<li><p>[10-03-2017] &ldquo;A community effort to protect genomic data sharing, collaboration and outsourcing&rdquo; accepted by npj Genomic Medicine</p>
+</li>
+</ul>
+<h2>Education </h2>
+<ul>
+<li><p>Ph.D., Department of Computer Science and Software Engineering, Auburn University, Auburn, AL USA, Aug. 2017 - Present</p>
+</li>
+<li><p>M.S., School of Electrical and Computer Engineering, University of Oklahoma, Tulsa, OK USA, Aug. 2014 - Aug. 2016</p>
+</li>
+<li><p>B.E., College of Information Engineering, Northwest A&F University, Yangling, Shaanxi China, Sep. 2010 - July 2014</p>
+</li>
+</ul>
+<h2>Research Interests </h2>
+<ul>
+<li><p>Neural network </p>
+</li>
+<li><p>Graph data mining </p>
+</li>
+<li><p>Privacy preserving computation</p>
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-10-03 20:40:36 PDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
